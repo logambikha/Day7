@@ -7,6 +7,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.EmptyStackException;
+import java.util.Queue;
 import java.util.Stack;
 
 public class FileOperation {
@@ -43,10 +44,8 @@ public class FileOperation {
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (EmptyStackException e) {
+		} 
+		 catch (EmptyStackException e) {
 			// TODO: handle exception
 			e.printStackTrace();
 		}
